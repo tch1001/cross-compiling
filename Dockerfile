@@ -1,4 +1,4 @@
 FROM python:3.9
 RUN apt-get update
-RUN apt-get install -y libelf-dev bison bc cpio qemu
+RUN apt-get install -y libelf-dev bison bc cpio qemu-system
 ENTRYPOINT [ "/bin/bash" ]
