@@ -7,3 +7,4 @@ docker run -it --rm \
 cd share
 wget http://www.landley.net/code/firmware/downloads/aboriginal-1.4.5.tar.gz
 ```
+it turns out that linux 4.3 has a bunch of build difficulties, using the latest linux 4 version helps [archive](https://www.kernel.org/)
